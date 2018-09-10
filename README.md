@@ -4,8 +4,8 @@ If nobody got the solve, no need to writeup, we can re-use next time.
 * openssl: Pipe the content of the file into `openssl` with the appropriate
 flags to decrypt. `cat ciphertext | openssl aes-256-cbc -d` and the
 password is `password`
-* "Cryptanalysis" TODO
-* forensics fun TODO
+* "Cryptanalysis" TODO Evan
+* forensics fun TODO DrDinosaur
 * [bof (simple writeup)][1] [bof (cool writeup)][2]
 * what is base (2^6): base64 encoding. very common in ctf. `echo
  Q1RGe2Jhc2VkX29mX3RoZV82NHRofQ== | base64 --decode`
