@@ -136,5 +136,9 @@ And finally print out the goods!
 dinolover@ctfd:~$ cat flag
 dino{maybe_i_should_stick_to_paleontology}
 ```
+You can unmount the image now by going back to where you mounted it and using the command:
+```
+sudo umount pi_mount
+```
 
 Overall, this was a pretty simple forensics challenge that required getting a password from the Exif data of an image, extracting an archive, mounting an image, exploring a filesystem, and using information found on that filesystem to login to a remote server. 
