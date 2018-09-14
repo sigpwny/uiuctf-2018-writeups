@@ -3,7 +3,8 @@ TODO: markdown relative links to everything
 If nobody got the solve, no need to writeup, we can re-use next time.
 * openssl: Pipe the content of the file into `openssl` with the appropriate
 flags to decrypt. `cat ciphertext | openssl aes-256-cbc -d` and the
-password is `password`
+password is `password`  
+This did not work on WSL Ubuntu for some reason.
 * "Cryptanalysis" TODO Evan
 * [forensics fun](forensics.md)
 * [bof (simple writeup)][1] [bof (cool writeup)][2]
